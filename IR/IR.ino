@@ -5,8 +5,9 @@ void setup() {
 }
 
 void loop() {
+
  int x = digitalRead(3);
  Serial.print("IR : ");
  Serial.println(x);
-
+ 
 }
